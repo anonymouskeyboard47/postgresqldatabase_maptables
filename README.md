@@ -17,11 +17,17 @@ CREATE EXTENSION postgis_topology;
 
 5.  <b>Right click</b> on the  <b>postgres</b> database and select  <b>Restore</b>
 
-6. Navigate to the location where you downloaded the file with the link below
+6. Navigate to the location where you downloaded the files
 
-https://dl.dropboxusercontent.com/u/313489686/Postgresql/postgres95_postgresmaptables_db_rolenamepostgres.backup
-
+7. Use <b>7zip</b> to Extract the files. Start with the file ending with <b>.001</b>
 
 8. Select <b>postgres</b> from the <b>role name</b> list
 
 9. Click  <b>OK</b> to restore the database
+
+
+Other sources of this file
+-----------
+This file is also available on DropBox via the link below.
+
+https://dl.dropboxusercontent.com/u/313489686/Postgresql/postgres95_postgresmaptables_db_rolenamepostgres.backup
