@@ -4,7 +4,7 @@ This is a PostgreSQL database dump of the spatial (map) tables used by Tripodmap
 
 Restoring Map tables in PostgreSQL
 ------------
-These tables contain spatial information /maps of Kenya
+
 1. Using pgAdmin III,  <b>Left click</b> on the pre-installed  <b>postgres database</b> and select it
 
 2.Click on the  <b>SQL</b> button at the top. The  <b>Query</b> window appears
