@@ -15,9 +15,9 @@ Restoring Map tables in PostgreSQL
 
 2. Click on the  <b>SQL</b> button at the top. The  <b>Query</b> window appears
 
-3. Type the following
-CREATE EXTENSION postgis;
-CREATE EXTENSION postgis_topology;
+3. Type the following<br>
+CREATE EXTENSION postgis;<br>
+CREATE EXTENSION postgis_topology;<br>
 
 4. Click  <b>Run</b> (The green play button). Clost the  Query window
 
