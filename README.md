@@ -1,9 +1,9 @@
 # postgresqldatabase_maptables
 This is a PostgreSQL database dump of the spatial (map) tables used by Tripodmaps Chui edition
 
+
 Extracting the files
 -----------
-
 Use <b>7zip</b> to Extract the files. Start with the file ending with <b>.001</b>
 
 
