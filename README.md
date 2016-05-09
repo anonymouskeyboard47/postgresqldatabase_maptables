@@ -35,3 +35,17 @@ Other sources of this file
 This file is also available on DropBox via the link below.
 
 https://dl.dropboxusercontent.com/u/313489686/Postgresql/postgres95_postgresmaptables_db_rolenamepostgres.backup
+
+
+Using certificates
+------------
+REF: http://ubuntuforums.org/showthread.php?t=735020
+
+It is important to include SSL verification early on in your system. The instructions below will help you with setting up Postgresql servers with SSL. This certificate(s) can also be used by your software applications as well.
+
+    openssl req -new -text -out server.req
+    openssl rsa -in privkey.pem -out server.key
+    rm privkey.pem
+    openssl req -x509 -in server.req -text -key server.key -out server.crt
+    chmod og-rwx server.key
+    chown postgres : postgres server.key
